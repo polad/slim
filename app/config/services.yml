@@ -1,0 +1,7 @@
+services:
+    app:
+        class: Slim
+        arguments: [ { "http.version": "1.0", "log.enable": true, "log.path": "./logs" } ]
+        
+    TestController:
+        class: TestController
